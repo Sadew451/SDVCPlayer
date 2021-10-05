@@ -36,8 +36,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋 **Hey {message.from_user.first_name}** \n
+ 
  **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Allow You To Play Music On Groups Through The New Telegram'S Voice Chats !**
+ 
  **Find Out All The Bot's Commands And How They Work By Click On The BUTTON !**
+ 
  **For Information About All Feautre Of This Bot**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
@@ -95,8 +98,10 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
+        f"""<b>👋🏻 **Hello I'm** {message.from_user.mention()}</b>
+
 **Please press the button below to read the explanation and see the list of available commands !**
+
 POWERD BY {BOT_NAME} A.I""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -113,7 +118,9 @@ POWERD BY {BOT_NAME} A.I""",
 async def help_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋 Hello {message.from_user.mention} Welcome to The Help Menu !</b>
+
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+
 POWRED BY {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [

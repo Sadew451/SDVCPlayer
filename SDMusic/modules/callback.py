@@ -335,12 +335,12 @@ And You Can Also Set A Time For the Ban And Mute Penalties For Members in Yur Go
    » type `/tm username/reply to message/duration` temporarily mute user
    » type `/um username/reply to message` to unmute user
 📝 note: cmd /b, /tb and /ub is the function to banned/unbanned user from your group, whereas /m, /tm and /um are commands to mute/unmute user in your group.
-⚡ __Powered by {BOT_NAME} A.I__""",
+POWERD BY {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 GO BACK", callback_data="cbback"
+                        "Back", callback_data="cbback"
                     )
                 ]
             ]
@@ -353,9 +353,9 @@ And You Can Also Set A Time For the Ban And Mute Penalties For Members in Yur Go
 @authorized_users_only
 async def cbdelcmds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>this is the feature information :</b>
+        f"""<b>This is The Feature Information :</b>
         
-**💡 Feature:** delete every commands sent by users to avoid spam in groups !
+**🔥 Feature:** Delete Every Commands Sent By Users to Avoid Spam in Groups !
 ❔ usage:**
  1️⃣ to turn on feature:
      » type `/delcmd on`
@@ -363,12 +363,12 @@ async def cbdelcmds(_, query: CallbackQuery):
  2️⃣ to turn off feature:
      » type `/delcmd off`
       
-⚡ __Powered by {BOT_NAME} A.I__""",
+POWERD BY {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 GO BACK", callback_data="cbback"
+                        "Back", callback_data="cbback"
                     )
                 ]
             ]
@@ -379,40 +379,40 @@ async def cbdelcmds(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbcmds"))
 async def cbhelps(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
-⚡ __Powered by {BOT_NAME} A.I__""",
+        f"""<b>👋 Hello there, Welcome to the Help Menu !</b>
+**in This Menu You Can Open Several Available Command Menus, in Each Command Menu There is Also A Brief Explanation Of Each Command**
+POWERD BY {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Basic Cmd", callback_data="cbbasic"
+                        "Basic Commands", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "📕 Advanced Cmd", callback_data="cbadvanced"
+                        "Advanced Commands", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📘 Admin Cmd", callback_data="cbadmin"
+                        "Admin Commands", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "📗 Sudo Cmd", callback_data="cbsudo"
+                        "Sudo Commands", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📙 Owner Cmd", callback_data="cbowner"
+                        "Owner Commands", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📔 Fun Cmd", callback_data="cbfun"
+                        "Fun Commands", callback_data="cbfun"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏡 BACK TO HOME", callback_data="cbstart"
+                        "Back", callback_data="cbstart"
                     )
                 ]
             ]
@@ -423,17 +423,17 @@ async def cbhelps(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhowtouse"))
 async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""❓ HOW TO USE THIS BOT:
+        f"""🤔 How To Use Me 🤔:
 1.) first, add me to your group.
 2.) then promote me as admin and give all permissions except anonymous admin.
 3.) add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.
 4.) turn on the voice chat first before start to play music.
-⚡ __Powered by {BOT_NAME} A.I__""",
+POWERD BY {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏡 BACK TO HOME", callback_data="cbstart"
+                        "Back", callback_data="cbstart"
                     )
                 ]
             ]

@@ -30,7 +30,7 @@ async def _(bot: Client, cmd: Message):
 
 # Back Button
 BACK_BUTTON = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🏡 Go Back", callback_data="cbback")]]
+    [[InlineKeyboardButton("Go Back", callback_data="cbback")]]
 )
 
 # @Client.on_message(filters.text & ~filters.private)
@@ -51,7 +51,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has been **updated !**"
+        "✅**Updated Successfully !**\n✅ **Admin list** has been **updated !**"
     )
 
 
@@ -61,7 +61,7 @@ async def update_admin(client, message):
 @authorized_users_only
 async def controlset(_, message: Message):
     await message.reply_text(
-        "**💡 opened music player control menu!**\n\n**💭 you can control the music player just by pressing one of the buttons below**",
+        "**opened music player control menu!**\n\n**you can control the music player just by pressing one of the buttons below**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -72,9 +72,9 @@ async def controlset(_, message: Message):
                     InlineKeyboardButton("⏩ skip", callback_data="cbskip"),
                     InlineKeyboardButton("⏹ end", callback_data="cbend"),
                 ],
-                [InlineKeyboardButton("⛔ anti cmd", callback_data="cbdelcmds")],
-                [InlineKeyboardButton("🛄 group tools", callback_data="cbgtools")],
-                [InlineKeyboardButton("🗑 Close", callback_data="close")],
+                [InlineKeyboardButton("🔥 anti cmd", callback_data="cbdelcmds")],
+                [InlineKeyboardButton("⚙️ group tools", callback_data="cbgtools")],
+                [InlineKeyboardButton("❌ Close", callback_data="close")],
             ]
         ),
     )
@@ -158,7 +158,7 @@ async def skip(_, message: Message):
 async def authenticate(client, message):
     global admins
     if not message.reply_to_message:
-        return await message.reply("💡 reply to message to authorize user !")
+        return await message.reply(" reply to message to authorize user !")
     if message.reply_to_message.from_user.id not in admins[message.chat.id]:
         new_admins = admins[message.chat.id]
         new_admins.append(message.reply_to_message.from_user.id)
@@ -175,7 +175,7 @@ async def authenticate(client, message):
 async def deautenticate(client, message):
     global admins
     if not message.reply_to_message:
-        return await message.reply("💡 reply to message to deauthorize user !")
+        return await message.reply("reply to message to deauthorize user !")
     if message.reply_to_message.from_user.id in admins[message.chat.id]:
         new_admins = admins[message.chat.id]
         new_admins.remove(message.reply_to_message.from_user.id)
@@ -202,10 +202,10 @@ async def delcmdc(_, message: Message):
         if await delcmd_is_on(message.chat.id):
             return await message.reply_text("✅ already activated")
         await delcmd_on(chat_id)
-        await message.reply_text("🟢 activated successfully")
+        await message.reply_text("activated successfully")
     elif status == "off":
         await delcmd_off(chat_id)
-        await message.reply_text("🔴 disabled successfully")
+        await message.reply_text("disabled successfully")
     else:
         await message.reply_text(
             "read the /help message to know how to use this command"
@@ -291,7 +291,7 @@ async def cbskip(_, query: CallbackQuery):
     )
 
 
-# (C) Veez Music Project
+# (C) SDBOTs Music Corparation
 
 # ban & unban function
 

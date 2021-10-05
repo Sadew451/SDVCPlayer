@@ -5,7 +5,7 @@ from SDMusic.config import PROJECT_NAME
 from SDMusic.config import SUPPORT_GROUP
 from SDMusic.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @SDBOTs_Inifinity"
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @SDBOTs_Inifinity"
       HELP_MSG = [
         ".",
 f"""
@@ -30,20 +30,21 @@ Join @SDBOTs_Inifinity
 f"""
 **Commands**
 **=>> Song Playing 🎧**
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
+- `/play`: `Play the requestd song`
+- `/play` `[yt url] : Play the given yt url`
+- `/play` `[reply yo audio]: Play replied audio`
+- `/splay`: `Play song via jio saavn`
+- `/ytplay`: `Directly play song via Youtube Music`
 **=>> Playback ⏯**
-- /player: Open Settings menu of player
-- /skip: Skips the current track
-- /pause: Pause track
-- /resume: Resumes the paused track
-- /end: Stops media playback
-- /current: Shows the current Playing track
-- /playlist: Shows playlist
-*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
+- `/player`: `Open Settings menu of player`
+- `/skip`: `Skips the current track`
+- `/pause`: `Pause track`
+- `/resume`: `Resumes the paused track`
+- `/end:` `Stops media playback`
+- `/current`: `Shows the current Playing track`
+- `/playlist`: `Shows playlist`
+
+*Player Cmd and All Other Cmds Except /play, /current  and /playlist  Are Only For Admins Of The Group.
 Join @SDBOTs_Inifinity
 """,
 

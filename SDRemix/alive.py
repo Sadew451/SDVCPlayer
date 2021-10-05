@@ -1,6 +1,3 @@
-#zaid Project 
-#Ur Motherfucker If U Kang And Don't Give Creadits 🥴
-
 from os import path
 
 from pyrogram import Client, filters
@@ -41,21 +38,21 @@ async def alive(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/95e785dea2717adf59de6.png",
-        caption=f"""**➮𝐳 ʜɪɪ ɪ ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
-➮ **Zαιԃ Sყʂƚҽɱ Wσɾƙιɳɠ Fιɳҽ**
-➮ **ᴢᴀɪᴅ ᴠᴇʀꜱɪᴏɴ : 5.0 Lҽƚҽʂƚ**
-➮ **ᴍʏ ᴏᴡɴᴇʀ : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
-➮ **ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ : `{uptime}`**
-**𝚃𝚑𝚊𝚗𝚔𝚜 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝚣𝚊𝚒𝚍 𝙱𝚘𝚝𝚜 ♥️**""",
+        photo=f"https://telegra.ph/file/8eb4cf7ef38841037bdba.jpg",
+        caption=f"""**➮Hey I'm [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+➮ **Music System is Working**
+➮ **Music Version : 5.0 Lҽƚҽʂƚ**
+➮ **owner : [{OWNER_NAME}](https://t.me/{OWNER_NAME})**
+➮ **Service Uptime : `{uptime}`**
+**Keep & Support Us**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💫 ɢʀᴏᴜᴘ", url=f"https://t.me/SUPERIOR_SUPPORT"
+                        "Support ɢʀᴏᴜᴘ 👥", url=f"https://t.me/SDBOTz"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/SUPERIOR_BOTS"
+                        "SDBOTs IniFinity", url=f"https://t.me/SDBOTs_Inifinity"
                     )
                 ]
             ]

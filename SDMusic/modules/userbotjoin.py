@@ -36,7 +36,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @VCPlayAssistant to your Group and try again</b>",
+            "\n\nOr manually add {ASSISTANT_NAME} to your Group and try again</b>",
         )
         return
     await message.reply_text(
@@ -97,7 +97,7 @@ async def addcchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "VCPlayBot"
+        user.first_name = "SDMusic"
 
     try:
         await USER.join_chat(invitelink)
@@ -111,7 +111,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @VCPlayAssistant to your Group and try again</b>",
+            "\n\nOr manually add {ASSISTANT_NAME} to your Group and try again</b>",
         )
         return
     await message.reply_text(

@@ -8,7 +8,7 @@ from SDMusic.modules.play import cb_admin_check
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>👋 **Hey, I'm {query.message.from_user.mention}** \n
+        f"""<b>👋 **Hey, I'm {query.message.from_user.mention}** \n  [SDMUSIC](https://telegra.ph/file/8eb4cf7ef38841037bdba.jpg)
  
  **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Allow You to Play Music On Groups Through The New Telegram Voice Chat !**
  

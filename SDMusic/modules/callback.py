@@ -11,7 +11,7 @@ async def cbstart(_, query: CallbackQuery):
         f"""<b>👋 **Hey, i'm {query.message.from_user.mention}** \n
  **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Allow You to Play Music On Groups Through The New Telegram Voice Chat !**
  Find Out All The Bot's Commands & How They Work By Click On The » Commands Button !**
-❓ **For Information About All Feature Of This Bot, Just**
+ **For Information About All Feature Of This Bot, Just**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -26,13 +26,13 @@ async def cbstart(_, query: CallbackQuery):
                          "Commands Help ❔", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "Owner 🤴", url=f"https://t.me/Darkridersslk")
                 ],[
                     InlineKeyboardButton(
-                        "Support Group 👥", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Support Group 👥", url=f"https://t.me/SDBOTz"
                     ),
                     InlineKeyboardButton(
-                        "BOT NEWS 🙋🏼‍♀️", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "SDBOTs News 🙋‍♂️", url=f"https://t.me/SDBOTs_inifinity")
                 ],[
                     InlineKeyboardButton(
                         "Source Code 💾", url="https://github.com/Sadew451/SDVCPlayer"

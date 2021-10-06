@@ -87,7 +87,7 @@ If you donlt like to play in linked channel:
 
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 - [Awesome Bot](http://t.me/LaylaList) Channel bot list
-- [Dev](http://t.me/HEROGAMERS1) 
+- [HEROGAMERS1](http://t.me/HEROGAMERS1) 
 - [QueenArzoo](https://github.com/QueenArzoo)
 
 #### Devoloper 

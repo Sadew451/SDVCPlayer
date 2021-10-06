@@ -1,9 +1,5 @@
 # Music-Player
 
-![Contributors](https://contrib.rocks/image?repo=Sadew451/SDVCPlayer)
-
-``` Waiting For Some Times```
-
 ### Mandatory Vars.
 
 - Some Of The Mandatory Vars Are :-
@@ -15,9 +11,9 @@
 
 - Get `STRING_SESSON` from here:  [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@QueenArzoo/VCPlayBot)
 
+![Contributors](https://contrib.rocks/image?repo=Sadew451/SDVCPlayer)
+
 # 🏃‍♂️ Deploy 
-
-
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/SDVCPlayer)
 

@@ -5,7 +5,7 @@ from SDMusic.config import PROJECT_NAME
 from SDMusic.config import SUPPORT_GROUP
 from SDMusic.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @SDBOTs_Inifinity"
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n I am an Very advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n 🚀 Join @SDBOTs_Inifinity"
       HELP_MSG = [
         ".",
 f"""

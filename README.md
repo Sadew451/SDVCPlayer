@@ -1,5 +1,7 @@
 # Music-Player
 
+![Contributors](https://contrib.rocks/image?repo=Sadew451/SDVCPlayer)
+
 ``` Waiting For Some Times```
 
 ### Mandatory Vars.

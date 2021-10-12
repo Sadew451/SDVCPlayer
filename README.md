@@ -18,7 +18,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/SDVCPlayer)
 
 
-
 ## Commands
 
 - `/play <song name>` - play song you requested

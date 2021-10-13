@@ -1,5 +1,9 @@
 # Music-Player
 
+# ⚡ Support
+<a href="https://t.me/SDBOTz"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/SDBOTs_Inifinity"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
 ![GitHub](https://img.shields.io/github/license/Sadew451/SDVCPlayer)
 
 <p align="center"><a href="https://t.me/SDBOTs_Inifinity"><img src="https://telegra.ph/file/6d135ea16750773d61dec.png" width="400"></a></p>

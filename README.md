@@ -1,5 +1,7 @@
 # Music-Player
 
+![GitHub](https://img.shields.io/github/license/Sadew451/SDVCPlayer)
+
 <p align="center"><a href="https://t.me/SDBOTs_Inifinity"><img src="https://telegra.ph/file/6d135ea16750773d61dec.png" width="400"></a></p>
 <p align="center">
 

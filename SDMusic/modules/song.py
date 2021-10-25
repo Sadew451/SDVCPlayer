@@ -11,7 +11,7 @@ import aiofiles
 import aiohttp
 import requests
 import wget
-import youtube_dl
+import yt_dlp
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message
